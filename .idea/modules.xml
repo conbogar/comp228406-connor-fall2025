@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Connor_COMP228Lab1/Connor_COMP228Lab1.iml" filepath="$PROJECT_DIR$/Connor_COMP228Lab1/Connor_COMP228Lab1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Connor_COMP228Lab2/Connor_COMP228Lab2.iml" filepath="$PROJECT_DIR$/Connor_COMP228Lab2/Connor_COMP228Lab2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Connor_COMP228Lab3/Connor_COMP228Lab3.iml" filepath="$PROJECT_DIR$/Connor_COMP228Lab3/Connor_COMP228Lab3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Connor_COMP228Lab4/Connor_COMP228Lab4.iml" filepath="$PROJECT_DIR$/Connor_COMP228Lab4/Connor_COMP228Lab4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Connor_COMP228Lab5/Connor_COMP228Lab5.iml" filepath="$PROJECT_DIR$/Connor_COMP228Lab5/Connor_COMP228Lab5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Connor_COMP228Lab6/Connor_COMP228Lab6.iml" filepath="$PROJECT_DIR$/Connor_COMP228Lab6/Connor_COMP228Lab6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Connor_COMP228Lab7/Connor_COMP228Lab7.iml" filepath="$PROJECT_DIR$/Connor_COMP228Lab7/Connor_COMP228Lab7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/comp228406-connor-fall2025.iml" filepath="$PROJECT_DIR$/.idea/comp228406-connor-fall2025.iml" />
+    </modules>
+  </component>
+</project>
