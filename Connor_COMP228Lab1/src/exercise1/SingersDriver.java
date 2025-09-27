@@ -1,4 +1,5 @@
 package exercise1;
+import java.time.LocalDate;
 
 public class SingersDriver {
     public static void main(String[] args) {
@@ -9,7 +10,12 @@ public class SingersDriver {
         printSinger(singer1);
 
         // Set values
-        singer1.setSingerInformation(1234, "Mariah Carey", "25 Madison Ave", "March 27, 1969", 16);
+        singer1.setSingerInformation(
+                1234,
+                "Mariah Carey",
+                "25 Madison Ave",
+                LocalDate.of(1969, 3, 27),
+                16);
         System.out.printf("%nAfter set-all:%n");
         printSinger(singer1);
 
@@ -17,7 +23,7 @@ public class SingersDriver {
         singer1.setSingerId(5678);
         singer1.setSingerName("Jimi Hendrix");
         singer1.setSingerAddress("350 Monroe Ave");
-        singer1.setDateOfBirth("November 27, 1942");
+        singer1.setDateOfBirth(LocalDate.of(1942, 11, 27));
         singer1.setNumberOfAlbums(3);
 
         System.out.printf("%nAfter individual changes:%n");

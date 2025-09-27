@@ -1,10 +1,11 @@
 package exercise1;
+import java.time.LocalDate;
 
 public class Singers {
     private int singerId;
     private String singerName;
     private String singerAddress;
-    private String dateOfBirth;
+    private LocalDate dateOfBirth;
     private int numberOfAlbums;
 
     //region constructors
@@ -12,11 +13,11 @@ public class Singers {
         this.singerId = 0;
         this.singerName = "Default";
         this.singerAddress = "Default";
-        this.dateOfBirth = "00/00/00";
+        this.dateOfBirth = LocalDate.of(1990, 1, 1);
         this.numberOfAlbums = 0;
     }
 
-    public Singers(int singerId, String singerName, String singerAddress, String dateOfBirth, int numberOfAlbums) {
+    public Singers(int singerId, String singerName, String singerAddress, LocalDate dateOfBirth, int numberOfAlbums) {
         this.singerId = singerId;
         this.singerName = singerName;
         this.singerAddress = singerAddress;
@@ -24,6 +25,7 @@ public class Singers {
         this.numberOfAlbums = numberOfAlbums;
     }
     //endregion constructors
+
     //region getters
     public int getSingerId() {
         return singerId;
@@ -37,7 +39,7 @@ public class Singers {
         return singerAddress;
     }
 
-    public String getDateOfBirth() {
+    public LocalDate getDateOfBirth() {
         return dateOfBirth;
     }
 
@@ -45,6 +47,7 @@ public class Singers {
         return numberOfAlbums;
     }
     //endregion getters
+
     //region setters
     public void setSingerId(int singerId) {
         this.singerId = singerId;
@@ -58,7 +61,7 @@ public class Singers {
         this.singerAddress = singerAddress;
     }
 
-    public void setDateOfBirth(String dateOfBirth) {
+    public void setDateOfBirth(LocalDate dateOfBirth) {
         this.dateOfBirth = dateOfBirth;
     }
 
@@ -66,7 +69,7 @@ public class Singers {
         this.numberOfAlbums = numberOfAlbums;
     }
 
-    public void setSingerInformation(int singerId, String singerName, String singerAddress, String dateOfBirth, int numberOfAlbums) {
+    public void setSingerInformation(int singerId, String singerName, String singerAddress, LocalDate dateOfBirth, int numberOfAlbums) {
         this.singerId = singerId;
         this.singerName = singerName;
         this.singerAddress = singerAddress;
